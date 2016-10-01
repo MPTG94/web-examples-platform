@@ -1,0 +1,45 @@
+{
+  "name": "node-express-angular",
+  "version": "1.0.0",
+  "description": "Learning and messing around with NodeJS, ExpressJS and Angular2",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.16.1",
+    "del": "^2.2.2",
+    "eslint": "^3.6.1",
+    "eslint-config-google": "^0.6.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify": "0.0.14",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "nodemon": "^1.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production && node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MPTG94/node-express-angular.git"
+  },
+  "keywords": [
+    "Node",
+    "NodeJS",
+    "Express",
+    "ExpressJS",
+    "Angular",
+    "Angular2"
+  ],
+  "author": "MuseApps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MPTG94/node-express-angular/issues"
+  },
+  "homepage": "https://github.com/MPTG94/node-express-angular#readme"
+}
