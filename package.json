@@ -1,10 +1,14 @@
 {
-  "name": "node-express-angular",
+  "name": "web-examples-platform",
   "version": "1.0.0",
-  "description": "Learning and messing around with NodeJS, ExpressJS and Angular2",
+  "description": "I use this template to make quick web hacks on a simple generic project",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "file-stream-rotator": "0.0.7",
+    "fs": "0.0.1-security",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "browser-sync": "^2.16.1",
@@ -26,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MPTG94/node-express-angular.git"
+    "url": "git+https://github.com/MPTG94/web-examples-platform.git"
   },
   "keywords": [
     "Node",
@@ -39,7 +43,7 @@
   "author": "MuseApps",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MPTG94/node-express-angular/issues"
+    "url": "https://github.com/MPTG94/web-examples-platform/issues"
   },
-  "homepage": "https://github.com/MPTG94/node-express-angular#readme"
+  "homepage": "https://github.com/MPTG94/web-examples-platform#readme"
 }
