@@ -8,7 +8,7 @@ var minify = require('gulp-minify');
 var cleanCss = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var htmlmin = require('gulp-htmlmin');
-var rimraf = require('gulp-rimraf');
+var del = require('del');
 
 // Default Gulp task to run including all necessary dependencies
 gulp.task('default', ['browser-sync', 'build'], function() {
@@ -87,7 +87,5 @@ gulp.task('copy-assets', function() {
 
 // Task to delete target build folder
 gulp.task('clean', function() {
-  return gulp.src('public/*', {
-    read: false
-  }).pipe(rimraf());
+  return del(['public/**', '!public']);
 });
